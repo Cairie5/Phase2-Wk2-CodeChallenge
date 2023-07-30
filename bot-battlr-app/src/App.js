@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 import BotCollection from './components/BotCollection';
 import YourBotArmy from './components/YourBotArmy';
 
@@ -30,8 +31,8 @@ const App = () => {
     <div className="app">
       <h1>Bot Battlr</h1>
       <div className="bot-container">
-        <BotCollection bots={bots} enlistBot={enlistBot} />
         <YourBotArmy enlistedBots={enlistedBots} releaseBot={releaseBot} />
+        <BotCollection bots={bots} enlistBot={enlistBot} />
       </div>
     </div>
   );

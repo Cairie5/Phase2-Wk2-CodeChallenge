@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+
+/* App component styles */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Bot Container styles */
+.bot-container {
+  display: flex;
+  flex-direction: column; /* Change to a column-based layout */
+  align-items: center; /* Center the components horizontally */
+}
+
+/* Bot Collection styles */
+.bot-collection {
+  width: 100%; /* Occupy the full width */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.bot-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bot-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.bot-card img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bot-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Your Bot Army styles */
+.your-bot-army {
+  width: 100%; /* Occupy the full width */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Selected bot styles */
+.your-bot-army .bot-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Shared styles */
+.bot-info {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.bot-info p {
+  margin: 5px 0;
+}
+
+/* Enlisted bot styles */
+.enlisted-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6f9d6;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.enlisted-bot img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.enlisted-bot button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
