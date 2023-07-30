@@ -4,7 +4,7 @@ import React from 'react';
 // The component receives `bot` object and `onClick` function as props
 const BotCard = ({ bot, onClick }) => {
   // Destructure properties from the `bot` object
-  const { name, health, damage, armor, avatar_url } = bot;
+  const { name, catchphrase, health, damage, armor, avatar_url } = bot;
 
   // Render the bot card with its information
   return (
@@ -25,6 +25,10 @@ const BotCard = ({ bot, onClick }) => {
 
         {/* Display the bot's armor */}
         <p>Armor: {armor}</p>
+
+        {/* Display the bot's catchphrase */}
+        <p>Catchphrase: {catchphrase}</p>
+        
       </div>
     </div>
   );
