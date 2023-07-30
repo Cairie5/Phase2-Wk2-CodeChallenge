@@ -1,0 +1,28 @@
+{
+  "name": "phase2-wk2-codechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cairie5/Phase2-Wk2-CodeChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cairie5/Phase2-Wk2-CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/Cairie5/Phase2-Wk2-CodeChallenge#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}
