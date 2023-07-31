@@ -78,7 +78,7 @@ h1 {
 
 .bot-card img {
   width: 100%;
-  max-height: 150px;
+  max-height: 500px;
   object-fit: cover;
   border-radius: 8px;
 }
