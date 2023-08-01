@@ -13,8 +13,7 @@ Bot Battlr offers the following features:
 View profiles of all bots in the BotCollection.
 Enlist individual bots into your army by clicking on them. Enlisted bots appear in the YourBotArmy component.
 Release bots from your army by clicking on them. Released bots return to the BotCollection.
-Discharge bots permanently by clicking the red "x" button, deleting them from both the backend and the YourBotArmy on the frontend.
-
+Discharge bots permanently by clicking the red "x" button, deleting them from both the backend and the YourBotArmy on the frontend. Sort Bots: Implement a SortBar component to sort bots by their health, damage, or armor.
 ## Setup & Pre-requisite Data
 
 git clone the repository to your local machine using the command. 
