@@ -6,6 +6,15 @@ Welcome to Bot Battlr, where you can build your own Bot Army!
 
  This is a React application that allows you to browse through a list of robots, view their details, and enlist them into your armyand remove them from your army.
 
+ ## Features
+
+Bot Battlr offers the following features:
+
+View profiles of all bots in the BotCollection.
+Enlist individual bots into your army by clicking on them. Enlisted bots appear in the YourBotArmy component.
+Release bots from your army by clicking on them. Released bots return to the BotCollection.
+Discharge bots permanently by clicking the red "x" button, deleting them from both the backend and the YourBotArmy on the frontend.
+
 ## Setup & Pre-requisite Data
 
 git clone the repository to your local machine using the command. 
