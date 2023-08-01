@@ -1,17 +1,19 @@
 # Bot Bottlr App
 
+Welcome to Bot Battlr, where you can build your own Bot Army!
+
 # Code-Challenge
 
-This is a React web application that allows users to view and add bot army. It fetches bots data from a local server running JSON Server and displays it in a table. Users can search for transactions by description, sort transactions alphabetically by category or description, and delete transactions from the table. Additionally, the app includes an "Undo" feature that allows users to restore recently deleted transactions back to the table.
+ This is a React application that allows you to browse through a list of robots, view their details, and enlist them into your armyand remove them from your army.
 
 ## Setup & Pre-requisite Data
 
 git clone the repository to your local machine using the command. 
-$ git clone git@github.com:Cairie5/phase2-W1-Code-Challenge.git
+$ git clone git@github.com:Cairie5/Phase2-Wk2-CodeChallenge.git
 
 Navigate to the project using the command 
 cd 
-$ cd phase2-W1-Code-Challenge
+$ cd phase2-W2-CodeChallenge
 
 Run the code using the command code . on your terminal 
 $ code .
