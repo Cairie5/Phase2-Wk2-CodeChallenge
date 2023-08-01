@@ -10,6 +10,7 @@ const BotCard = ({ bot, onClick }) => {
   return (
     <div className='card'>
     <div className="bot-card" onClick={onClick}>
+      <button type="button" class="btn btn-danger position-absolute top-0 end-0">X</button>
       {/* Display the bot's avatar image */}
       <img src={avatar_url} alt={name} />
 
